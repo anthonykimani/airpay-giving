@@ -11,6 +11,7 @@
 .hero-section-container{
     background-color: #007BFF;
     height:100vh;
+
 }
 
 nav{
@@ -48,7 +49,7 @@ li{
 
 .hero-section{
     display: flex;
-    height:700px;
+    height:650px;
     justify-content: space-around;
     align-items: center;
     color:white;
@@ -75,8 +76,9 @@ li{
 
 .hero-section-text div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
+    width: 300px;
 }
 
 .hero-section-text div button{
@@ -99,4 +101,51 @@ li{
 
 .hero-section img{
     width:40%;
+}
+
+.stats-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats-container{
+    width:800px;
+    background-color: white;
+    border-radius:4px;
+    height:100px;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.stats-container span{
+    display: flex;
+
+}
+
+.stats{
+    display:flex;
+    align-items: center;
+    color:#007BFF;
+}
+
+.stats img{
+    width:64px;
+}
+
+.stats span{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin:5px;
+}
+
+.stats span h4{
+    font-weight:700;
+}
+
+.stats span p{
+    
 }
