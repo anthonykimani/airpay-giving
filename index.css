@@ -8,9 +8,11 @@
     /* border: 1px solid red;   */
 }
 
+/* hero section */
+
 .hero-section-container{
     background-color: #007BFF;
-    height:100vh;
+    height:800px;
 
 }
 
@@ -103,6 +105,8 @@ li{
     width:40%;
 }
 
+/* stats section */
+
 .stats-section{
     display: flex;
     flex-direction: column;
@@ -118,6 +122,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .stats-container span{
@@ -148,4 +153,53 @@ li{
 
 .stats span p{
     
+}
+
+/* about us section */
+
+.about-section{
+    margin-top:100px;
+    display:flex;
+    min-height:500px;
+    justify-content: space-around;
+}
+
+.about-section img{
+    width:500px;
+    border-radius: 31px;
+}
+
+.about-section span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:600px;
+}
+
+.about-section span h4{
+    background-color: #007bff24;
+    width:110px;
+    padding:10px;
+    border-radius:30px;
+    text-align: center;
+    color:#007BFF;
+}
+
+.about-section span h2{
+    font-size: 58px;
+    color:rgba(0, 0, 0, 0.733);
+}
+
+.about-section span p{
+    color:rgba(0, 0, 0, 0.503);
+}
+
+.about-section span button{
+    padding:10px 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    width:120px;
+    border:none;
 }
